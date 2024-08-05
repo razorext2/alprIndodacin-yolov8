@@ -1,0 +1,5 @@
+# Mengecualikan semua file dan folder dalam direktori venv
+venv/
+
+# Mengecualikan semua file .mp4 dalam direktori assets
+assets/*.mp4
