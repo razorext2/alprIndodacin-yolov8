@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ["plates"]
+
+roboflow:
+  workspace: unm-co30r
+  project: plat-nomor-vinia
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/unm-co30r/plat-nomor-vinia/dataset/1
