@@ -9,7 +9,7 @@ videos = glob('inputs/*.mp4')
 print(videos)
 
 # pick pre-trained model
-model_pretrained = YOLO('punyaku.pt')
+model_pretrained = YOLO('barulagi.pt')
 
 # read video by index
 video = cv.VideoCapture(videos[1])

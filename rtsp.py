@@ -6,7 +6,7 @@ import os
 rtsp_url = 'rtsp://admin:admin123@192.168.11.34:554/sub_stream'
 
 # Initialize the pre-trained YOLO model
-model_pretrained = YOLO('yolov8n.pt')  # No weights_only argument
+model_pretrained = YOLO('barulagi.pt')  # No weights_only argument
 
 # Open a connection to the RTSP stream
 video = cv.VideoCapture(rtsp_url)

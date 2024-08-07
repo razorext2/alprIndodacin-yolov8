@@ -3,6 +3,12 @@ venv/
 runs/
 datasets/
 inputs/
+outputs/
+.ipynb_checkpoints/
+train/
 
 # Mengecualikan semua file .mp4 dalam direktori assets
 assets/*.mp4
+/*.jpg
+/*.mp4
+/*.pt
