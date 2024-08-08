@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import os
 
 # RTSP URL for the camera
-rtsp_url = 'rtsp://admin:admin123@192.168.11.34:554/sub_stream'
+rtsp_url = 'rtsp://admin:Admin123@192.168.15.104:554/sub_stream'
 
 # Initialize the pre-trained YOLO model
 model_pretrained = YOLO('barulagi.pt')  # No weights_only argument
